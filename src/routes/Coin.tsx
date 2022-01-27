@@ -145,7 +145,7 @@ interface PriceData {
   };
 }
 
-function Coin({}) {
+function Coin() {
   const { coinId } = useParams<RouteParams>();
   const { state } = useLocation<RouteState>();
   const chartMatch = useRouteMatch("/:coinId/chart");
